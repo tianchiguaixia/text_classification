@@ -1,0 +1,8 @@
+#bert参数
+cnews:
+    PRE_TRAINED_MODEL_NAME: 'bert-base-chinese'
+    label2onehot: 'labelencode/news.pkl'
+    class_names_num: 10
+    train_data_path: 'train_data/cnews.txt'
+    model_save_path: 'best_models/best_bert.bin'
+    max_len: 100
